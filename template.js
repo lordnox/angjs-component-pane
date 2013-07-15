@@ -1,0 +1,1 @@
+module.exports = '<div class="tab-pane" ng-class="{active: selected}" ng-transclude></div>';

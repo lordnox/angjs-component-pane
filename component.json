@@ -1,10 +1,12 @@
 {
   "name": "angjs-component-pane",
   "repo": "lordnox/angjs-component-pane",
-  "description": "the pane component from the angularjs homepage\u0018y",
+  "description": "the pane component from the angularjs homepage",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "lordnox/angjs-component-tabs": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
@@ -12,7 +14,5 @@
     "index.js",
     "template.js"
   ],
-  "styles": [
-    "angjs-component-pane.css"
-  ]
+  "styles": []
 }
